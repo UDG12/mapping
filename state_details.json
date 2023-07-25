@@ -1,6 +1,16 @@
 {
   "states": [
     {
+      "name": "Telangana",
+      "history": "Telangana became the 29th state of India on June 2, 2014, after the bifurcation of Andhra Pradesh. It was the first state to be formed after the new reorganization of states.",
+      "wiki_link": "https://en.wikipedia.org/wiki/Telangana"
+    },
+    {
+      "name": "Andaman & Nicobar Island",
+      "history": "Andaman and Nicobar Islands are a group of islands in the Bay of Bengal. They became a union territory of India on November 1, 1956.",
+      "wiki_link": "https://en.wikipedia.org/wiki/Andaman_and_Nicobar_Islands"
+    },
+    {
       "name": "Andhra Pradesh",
       "history": "Andhra Pradesh was formed on November 1, 1956, as the first state in India to be formed on a linguistic basis. It was later bifurcated into two states - Andhra Pradesh and Telangana on June 2, 2014.",
       "wiki_link": "https://en.wikipedia.org/wiki/Andhra_Pradesh"
@@ -26,6 +36,11 @@
       "wiki_link": "https://en.wikipedia.org/wiki/Chhattisgarh"
     },
     {
+      "name": "Daman & Diu",
+      "history": "Daman and Diu are union territories on the western coast of India. They became part of India on December 19, 1961.",
+      "wiki_link": "https://en.wikipedia.org/wiki/Daman_and_Diu"
+    },
+    {
       "name": "Goa",
       "history": "Goa, known for its beautiful beaches and Portuguese influence, became the 25th state of India on May 30, 1987.",
       "wiki_link": "https://en.wikipedia.org/wiki/Goa"
@@ -46,6 +61,11 @@
       "wiki_link": "https://en.wikipedia.org/wiki/Himachal_Pradesh"
     },
     {
+      "name": "Jammu & Kashmir",
+      "history": "Jammu and Kashmir, earlier a princely state, became a union territory of India on October 31, 2019, after the abrogation of Article 370.",
+      "wiki_link": "https://en.wikipedia.org/wiki/Jammu_and_Kashmir"
+    },
+    {
       "name": "Jharkhand",
       "history": "Jharkhand was carved out of the state of Bihar on November 15, 2000, as the 28th state of India. It is rich in mineral resources.",
       "wiki_link": "https://en.wikipedia.org/wiki/Jharkhand"
@@ -61,64 +81,54 @@
       "wiki_link": "https://en.wikipedia.org/wiki/Kerala"
     },
     {
+      "name": "Lakshadweep",
+      "history": "Lakshadweep is a group of islands in the Arabian Sea. It became a union territory of India on November 1, 1956.",
+      "wiki_link": "https://en.wikipedia.org/wiki/Lakshadweep"
+    },
+    {
       "name": "Madhya Pradesh",
-      "history": "Madhya Pradesh, located in the central part of India, was formed on November 1, 1956.",
+      "history": "Madhya Pradesh, the heart of India, was formed on November 1, 1956.",
       "wiki_link": "https://en.wikipedia.org/wiki/Madhya_Pradesh"
     },
     {
       "name": "Maharashtra",
-      "history": "Maharashtra, the second-most populous state in India, was formed on May 1, 1960, after the reorganization of states based on language.",
+      "history": "Maharashtra was formed on May 1, 1960, after the reorganization of the state of Bombay. It is one of the most industrialized states in India.",
       "wiki_link": "https://en.wikipedia.org/wiki/Maharashtra"
     },
     {
       "name": "Manipur",
-      "history": "Manipur became a full-fledged state of India on January 21, 1972. It is known for its rich cultural heritage.",
+      "history": "Manipur, known for its natural beauty and diverse culture, became a state of India on January 21, 1972.",
       "wiki_link": "https://en.wikipedia.org/wiki/Manipur"
     },
     {
-      "name": "Meghalaya",
-      "history": "Meghalaya, known for its scenic beauty and abundant rainfall, became a state of India on January 21, 1972.",
-      "wiki_link": "https://en.wikipedia.org/wiki/Meghalaya"
+      "name": "Chandigarh",
+      "history": "Chandigarh is a union territory and serves as the joint capital of Punjab and Haryana. It was designed by Swiss-French architect Le Corbusier.",
+      "wiki_link": "https://en.wikipedia.org/wiki/Chandigarh"
     },
     {
-      "name": "Mizoram",
-      "history": "Mizoram, earlier known as the Lushai Hills District of Assam, became a full-fledged state of India on February 20, 1987.",
-      "wiki_link": "https://en.wikipedia.org/wiki/Mizoram"
-    },
-    {
-      "name": "Nagaland",
-      "history": "Nagaland became the 16th state of India on December 1, 1963. It is known for its distinct tribal cultures.",
-      "wiki_link": "https://en.wikipedia.org/wiki/Nagaland"
-    },
-    {
-      "name": "Odisha",
-      "history": "Odisha, earlier known as Orissa, was formed on April 1, 1936. It has a rich history and cultural heritage.",
-      "wiki_link": "https://en.wikipedia.org/wiki/Odisha"
+      "name": "Puducherry",
+      "history": "Puducherry, formerly known as Pondicherry, is a union territory on the southeastern coast of India. It has a rich colonial heritage.",
+      "wiki_link": "https://en.wikipedia.org/wiki/Puducherry"
     },
     {
       "name": "Punjab",
-      "history": "Punjab, known for its fertile land and vibrant culture, was formed on November 1, 1966, after the reorganization of states based on language.",
+      "history": "Punjab, known as the land of five rivers, was formed on November 1, 1966, after the reorganization of the state of Punjab.",
       "wiki_link": "https://en.wikipedia.org/wiki/Punjab,_India"
     },
     {
       "name": "Rajasthan",
-      "history": "Rajasthan, the land of the kings, was formed on November 1, 1956. It is known for its historical forts and palaces.",
+      "history": "Rajasthan, the land of kings, was formed on November 1, 1956.",
       "wiki_link": "https://en.wikipedia.org/wiki/Rajasthan"
     },
     {
       "name": "Sikkim",
-      "history": "Sikkim became the 22nd state of India on May 16, 1975. It is known for its picturesque landscapes and Buddhist culture.",
+      "history": "Sikkim, earlier an independent kingdom, became the 22nd state of India on May 16, 1975.",
       "wiki_link": "https://en.wikipedia.org/wiki/Sikkim"
     },
     {
       "name": "Tamil Nadu",
       "history": "Tamil Nadu, earlier known as Madras, was formed on November 1, 1956, as the first state to be formed on a linguistic basis.",
       "wiki_link": "https://en.wikipedia.org/wiki/Tamil_Nadu"
-    },
-    {
-      "name": "Telangana",
-      "history": "Telangana became the 29th state of India on June 2, 2014, after the bifurcation of Andhra Pradesh. It was the first state to be formed after the new reorganization of states.",
-      "wiki_link": "https://en.wikipedia.org/wiki/Telangana"
     },
     {
       "name": "Tripura",
@@ -139,6 +149,36 @@
       "name": "West Bengal",
       "history": "West Bengal, known for its cultural diversity and intellectual heritage, was formed on January 26, 1950.",
       "wiki_link": "https://en.wikipedia.org/wiki/West_Bengal"
+    },
+    {
+      "name": "Odisha",
+      "history": "Odisha, earlier known as Orissa, was formed on April 1, 1936. It is known for its rich history and art.",
+      "wiki_link": "https://en.wikipedia.org/wiki/Odisha"
+    },
+    {
+      "name": "Dadra & Nagar Haveli",
+      "history": "Dadra and Nagar Haveli are union territories located in Western India. They were merged with the Indian Union on August 11, 1961.",
+      "wiki_link": "https://en.wikipedia.org/wiki/Dadra_and_Nagar_Haveli"
+    },
+    {
+      "name": "Meghalaya",
+      "history": "Meghalaya, known for its picturesque landscapes and abundant rainfall, became a state of India on January 21, 1972.",
+      "wiki_link": "https://en.wikipedia.org/wiki/Meghalaya"
+    },
+    {
+      "name": "Mizoram",
+      "history": "Mizoram, known for its vibrant tribal culture, became a state of India on February 20, 1987.",
+      "wiki_link": "https://en.wikipedia.org/wiki/Mizoram"
+    },
+    {
+      "name": "Nagaland",
+      "history": "Nagaland, known for its diverse indigenous tribes, became a state of India on December 1, 1963.",
+      "wiki_link": "https://en.wikipedia.org/wiki/Nagaland"
+    },
+    {
+      "name": "NCT of Delhi",
+      "history": "The National Capital Territory of Delhi, also known as Delhi, became a union territory of India on November 1, 1956. It serves as the capital of India.",
+      "wiki_link": "https://en.wikipedia.org/wiki/Delhi"
     }
   ]
 }
