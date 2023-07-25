@@ -1,0 +1,144 @@
+{
+  "states": [
+    {
+      "name": "Andhra Pradesh",
+      "history": "Andhra Pradesh was formed on November 1, 1956, as the first state in India to be formed on a linguistic basis. It was later bifurcated into two states - Andhra Pradesh and Telangana on June 2, 2014.",
+      "wiki_link": "https://en.wikipedia.org/wiki/Andhra_Pradesh"
+    },
+    {
+      "name": "Arunachal Pradesh",
+      "history": "Arunachal Pradesh became a full-fledged state of India on February 20, 1987. It was earlier known as the North-East Frontier Agency (NEFA).",
+      "wiki_link": "https://en.wikipedia.org/wiki/Arunachal_Pradesh"
+    },
+    {
+      "name": "Assam",
+      "history": "Assam was one of the original states of India, formed on April 1, 1937. It is known for its rich biodiversity and tea production.",
+      "wiki_link": "https://en.wikipedia.org/wiki/Assam"
+    },
+    {
+      "name": "Bihar",
+      "history": "Bihar, one of the oldest inhabited places in the world, became a state of India on November 15, 2000, after the bifurcation of the state of Bihar and Jharkhand.",
+      "wiki_link": "https://en.wikipedia.org/wiki/Bihar"
+    },
+    {
+      "name": "Chhattisgarh",
+      "history": "Chhattisgarh was carved out of Madhya Pradesh on November 1, 2000, as the 26th state of India. It is known for its abundant mineral resources.",
+      "wiki_link": "https://en.wikipedia.org/wiki/Chhattisgarh"
+    },
+    {
+      "name": "Goa",
+      "history": "Goa, known for its beautiful beaches and Portuguese influence, became the 25th state of India on May 30, 1987.",
+      "wiki_link": "https://en.wikipedia.org/wiki/Goa"
+    },
+    {
+      "name": "Gujarat",
+      "history": "Gujarat, the land of Mahatma Gandhi, was formed on May 1, 1960, after the reorganization of the state of Bombay.",
+      "wiki_link": "https://en.wikipedia.org/wiki/Gujarat"
+    },
+    {
+      "name": "Haryana",
+      "history": "Haryana was carved out of the state of Punjab on November 1, 1966. It is one of the wealthiest states in India.",
+      "wiki_link": "https://en.wikipedia.org/wiki/Haryana"
+    },
+    {
+      "name": "Himachal Pradesh",
+      "history": "Himachal Pradesh became a state of India on January 25, 1971, after being carved out of the state of Punjab. It is known for its picturesque landscapes.",
+      "wiki_link": "https://en.wikipedia.org/wiki/Himachal_Pradesh"
+    },
+    {
+      "name": "Jharkhand",
+      "history": "Jharkhand was carved out of the state of Bihar on November 15, 2000, as the 28th state of India. It is rich in mineral resources.",
+      "wiki_link": "https://en.wikipedia.org/wiki/Jharkhand"
+    },
+    {
+      "name": "Karnataka",
+      "history": "Karnataka, earlier known as Mysore, was formed on November 1, 1956, after the reorganization of states based on language.",
+      "wiki_link": "https://en.wikipedia.org/wiki/Karnataka"
+    },
+    {
+      "name": "Kerala",
+      "history": "Kerala, known for its unique culture and high literacy rate, was formed on November 1, 1956.",
+      "wiki_link": "https://en.wikipedia.org/wiki/Kerala"
+    },
+    {
+      "name": "Madhya Pradesh",
+      "history": "Madhya Pradesh, located in the central part of India, was formed on November 1, 1956.",
+      "wiki_link": "https://en.wikipedia.org/wiki/Madhya_Pradesh"
+    },
+    {
+      "name": "Maharashtra",
+      "history": "Maharashtra, the second-most populous state in India, was formed on May 1, 1960, after the reorganization of states based on language.",
+      "wiki_link": "https://en.wikipedia.org/wiki/Maharashtra"
+    },
+    {
+      "name": "Manipur",
+      "history": "Manipur became a full-fledged state of India on January 21, 1972. It is known for its rich cultural heritage.",
+      "wiki_link": "https://en.wikipedia.org/wiki/Manipur"
+    },
+    {
+      "name": "Meghalaya",
+      "history": "Meghalaya, known for its scenic beauty and abundant rainfall, became a state of India on January 21, 1972.",
+      "wiki_link": "https://en.wikipedia.org/wiki/Meghalaya"
+    },
+    {
+      "name": "Mizoram",
+      "history": "Mizoram, earlier known as the Lushai Hills District of Assam, became a full-fledged state of India on February 20, 1987.",
+      "wiki_link": "https://en.wikipedia.org/wiki/Mizoram"
+    },
+    {
+      "name": "Nagaland",
+      "history": "Nagaland became the 16th state of India on December 1, 1963. It is known for its distinct tribal cultures.",
+      "wiki_link": "https://en.wikipedia.org/wiki/Nagaland"
+    },
+    {
+      "name": "Odisha",
+      "history": "Odisha, earlier known as Orissa, was formed on April 1, 1936. It has a rich history and cultural heritage.",
+      "wiki_link": "https://en.wikipedia.org/wiki/Odisha"
+    },
+    {
+      "name": "Punjab",
+      "history": "Punjab, known for its fertile land and vibrant culture, was formed on November 1, 1966, after the reorganization of states based on language.",
+      "wiki_link": "https://en.wikipedia.org/wiki/Punjab,_India"
+    },
+    {
+      "name": "Rajasthan",
+      "history": "Rajasthan, the land of the kings, was formed on November 1, 1956. It is known for its historical forts and palaces.",
+      "wiki_link": "https://en.wikipedia.org/wiki/Rajasthan"
+    },
+    {
+      "name": "Sikkim",
+      "history": "Sikkim became the 22nd state of India on May 16, 1975. It is known for its picturesque landscapes and Buddhist culture.",
+      "wiki_link": "https://en.wikipedia.org/wiki/Sikkim"
+    },
+    {
+      "name": "Tamil Nadu",
+      "history": "Tamil Nadu, earlier known as Madras, was formed on November 1, 1956, as the first state to be formed on a linguistic basis.",
+      "wiki_link": "https://en.wikipedia.org/wiki/Tamil_Nadu"
+    },
+    {
+      "name": "Telangana",
+      "history": "Telangana became the 29th state of India on June 2, 2014, after the bifurcation of Andhra Pradesh. It was the first state to be formed after the new reorganization of states.",
+      "wiki_link": "https://en.wikipedia.org/wiki/Telangana"
+    },
+    {
+      "name": "Tripura",
+      "history": "Tripura became a full-fledged state of India on January 21, 1972. It is known for its rich biodiversity and tribal cultures.",
+      "wiki_link": "https://en.wikipedia.org/wiki/Tripura"
+    },
+    {
+      "name": "Uttar Pradesh",
+      "history": "Uttar Pradesh, the most populous state in India, was formed on January 26, 1950, after the adoption of the Indian Constitution.",
+      "wiki_link": "https://en.wikipedia.org/wiki/Uttar_Pradesh"
+    },
+    {
+      "name": "Uttarakhand",
+      "history": "Uttarakhand, known for its scenic beauty and religious significance, became the 27th state of India on November 9, 2000.",
+      "wiki_link": "https://en.wikipedia.org/wiki/Uttarakhand"
+    },
+    {
+      "name": "West Bengal",
+      "history": "West Bengal, known for its cultural diversity and intellectual heritage, was formed on January 26, 1950.",
+      "wiki_link": "https://en.wikipedia.org/wiki/West_Bengal"
+    }
+  ]
+}
