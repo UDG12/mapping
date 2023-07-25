@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Create a hover and click effect</title>
+  <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+  <script src="https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js"></script>
+  <link href="https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css" rel="stylesheet" />
+  <style>
+    body { margin: 0; padding: 0; }
+    #map { position: absolute; top: 0; bottom: 0; width: 100%; }
+    .popup-content a {
+      display: block;
+      margin-top: 5px;
+      color: #0078FF;
+    }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+  <input type="file" id="fileInput">
+  <pre id="output"></pre>
+  <script>
+mapboxgl.accessToken ='Add Your Key';
+
+    // Fetch JSON data containing state names and histories
+    fetch('https://raw.githubusercontent.com/UDG12/mapping/main/state_details.json')
+      .then((response) => response.json())
+      .then((jsonData) => {
+        // Store the jsonData for later use
+        const stateData = jsonData.states;
+
+        const map = new mapboxgl.Map({
+          container: 'map',
+          // Choose from Mapbox's core styles, or make your own style with Mapbox Studio
+          style: 'mapbox://styles/mapbox/streets-v12',
+          center: [78.9629, 20.5937],
+          zoom: 2
+        });
+
+        map.on('load', () => {
+          map.addSource('states', {
+            'type': 'geojson',
+            'data': 'https://raw.githubusercontent.com/UDG12/WhatsApp-Bot/master/states_india.geojson'
+          });
+
+          map.addLayer({
+            'id': 'state-fills',
+            'type': 'fill',
+            'source': 'states',
+            'layout': {},
+            'paint': {
+              'fill-color': '#627BC1',
+              'fill-opacity': 0.5
+            }
+          });
+
+          map.addLayer({
+            'id': 'state-borders',
+            'type': 'line',
+            'source': 'states',
+            'layout': {},
+            'paint': {
+              'line-color': '#627BC1',
+              'line-width': 2
+            }
+          });
+
+          // Add a new layer 'state-hover' for highlighting on hover
+          map.addLayer({
+            'id': 'state-hover',
+            'type': 'fill',
+            'source': 'states',
+            'paint': {
+              'fill-color': 'red',
+              'fill-opacity': 1
+            },
+            'filter': ['==', 'cartodb_id', '']
+          });
+
+          // Create a popup object to display state information
+          const popup = new mapboxgl.Popup({
+            closeButton: true,
+            closeOnClick: false
+          });
+
+          // Handle mousemove and click events for the 'state-fills' layer
+          map.on('mousemove', 'state-fills', (e) => {
+            if (e.features.length > 0) {
+              // Highlight the state on hover
+              map.setFilter('state-hover', ['==', 'cartodb_id', e.features[0].properties.cartodb_id]);
+
+              // Change cursor style to pointer when hovering over a state
+              map.getCanvas().style.cursor = 'pointer';
+            }
+          });
+
+          map.on('click', 'state-fills', (e) => {
+            if (e.features.length > 0) {
+              // Get the state name from the 'st_nm' property
+              const stateName = e.features[0].properties.st_nm;
+              // Find state details from the jsonData using the state name
+              const stateDetails = stateData.find(state => state.name === stateName);
+              // Build the popup content with state details
+              const popupContent = `
+                <h3>${stateName}</h3>
+                <p>${stateDetails.history}</p>
+                <a href="${stateDetails.wiki_link}" target="_blank">More info on Wikipedia</a>
+              `;
+
+              // Display the popup with the state details at the clicked location
+              popup.setLngLat(e.lngLat).setHTML(popupContent).addTo(map);
+            }
+          });
+
+          // Reset the hover effect and hide the popup when the mouse leaves the map or clicks outside a state
+          map.on('mouseleave', 'state-fills', () => {
+            map.setFilter('state-hover', ['==', 'cartodb_id', '']);
+            map.getCanvas().style.cursor = '';
+            popup.remove();
+          });
+        });
+      })
+      .catch((error) => {
+        console.error('Error fetching JSON data:', error);
+      });
+  </script>
+</body>
+</html>
